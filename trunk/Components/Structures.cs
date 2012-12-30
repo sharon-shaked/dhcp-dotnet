@@ -356,35 +356,4 @@ namespace Org.Reddragonit.Net.DHCP.Components
             }
         }
     }
-
-    public struct ServerBinding
-    {
-        private IPAddress _ip;
-        public IPAddress IP
-        {
-            get { return _ip; }
-        }
-
-        private int _inPort;
-        public int InPort
-        {
-            get { return _inPort; }
-        }
-
-        private int _outPort;
-        public int OutPort
-        {
-            get { return _outPort; }
-        }
-
-        public ServerBinding(IPAddress ip, int inPort, int outPort)
-        {
-            _ip = ip;
-            _inPort = inPort;
-            _outPort = outPort;
-        }
-
-        public ServerBinding(IPAddress ip)
-            : this(ip, Constants.DHCP_IN_PORT, Constants.DHCP_OUT_PORT) { }
-    }
 }
