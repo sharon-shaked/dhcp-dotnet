@@ -1,4 +1,4 @@
-﻿namespace Org.Reddragonit.Net.DHCP.Components
+﻿namespace Org.Reddragonit.Net.DHCP
 {
 
     public enum LogLevels

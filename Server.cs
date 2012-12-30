@@ -8,7 +8,7 @@ using System.Data;
 using System.Text.RegularExpressions;
 using System.Threading;
 
-namespace Org.Reddragonit.Net.DHCP.Components
+namespace Org.Reddragonit.Net.DHCP
 {
     public class Server
     {

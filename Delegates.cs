@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net;
 
-namespace Org.Reddragonit.Net.DHCP.Components
+namespace Org.Reddragonit.Net.DHCP
 {
     public delegate void delLogLine(LogLevels level,string line);
     public delegate Dictionary<DHCPOptionEnum,object> delGetOptions(string mac);
