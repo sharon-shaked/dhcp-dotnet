@@ -36,10 +36,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\Delegates.cs" />
-    <Compile Include="Components\Enums.cs" />
-    <Compile Include="Components\Server.cs" />
-    <Compile Include="Components\Structures.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Structures.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility.cs" />

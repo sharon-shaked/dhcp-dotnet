@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using System.Net;
 
-namespace Org.Reddragonit.Net.DHCP.Components
+namespace Org.Reddragonit.Net.DHCP
 {
 
     public struct DHCPOption : IComparable
