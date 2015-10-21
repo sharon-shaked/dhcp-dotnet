@@ -1,0 +1,1 @@
+A DHCP server implement purely in C#, using asynchronous sockets.  It requires a minimum of .Net 2.5 and can be run on either mono or .Net platforms.
